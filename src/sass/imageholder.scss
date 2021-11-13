@@ -1,0 +1,25 @@
+.image-holder-wrapper {
+  width: 3.5em;
+  height: 1.5em;
+  margin: 1em auto;
+}
+.image-holder-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+@media only screen and (min-width: 731px) {
+  .image-holder-wrapper {
+    width: 8em;
+    height: 8em;
+    margin: 1em auto;
+  }
+  .image-holder-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+  }
+}

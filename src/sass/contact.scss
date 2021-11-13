@@ -1,0 +1,85 @@
+.contact-container {
+  margin-top: 1em;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.contact-map {
+  width: 25em;
+  margin: 1em auto;
+}
+.contact-map img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 23em;
+}
+input {
+  width: 100%;
+  height: 3em;
+  outline: 0;
+  border: 0;
+  margin-top: 1em;
+  background: #eeeeee;
+}
+::placeholder {
+  padding-left: 1em;
+}
+textarea {
+  width: 100%;
+  margin-top: 1em;
+  height: 7em;
+  background: #eeeeee;
+  border: none;
+  outline: none;
+}
+button {
+  color: white;
+  width: 7em;
+  background-color: green;
+  align-self: flex-end;
+  margin-top: 1em;
+  height: 3em;
+  border: none;
+  outline: none;
+}
+
+@media only screen and (min-width: 731px) {
+  .contact-container {
+    display: flex;
+    flex-direction: row;
+    width: 80em;
+    margin: 1em auto;
+    min-height: 70vh;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .contact-form p {
+    text-align: start;
+    width: 30em;
+  }
+  .contact-map {
+    width: 30em;
+  }
+  .contact-map img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
