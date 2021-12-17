@@ -11,6 +11,9 @@ import { events } from '../utils/recentEventSeed';
 import Picture from '../images/announcement1.png';
 import RecentPost from '../component/RecentPost';
 import { posts } from '../utils/recentPostSeed';
+import MainSlide from '../component/MainSlide';
+import { headlines } from '../utils/mainSliideSeed';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const Home = () => {
   return (

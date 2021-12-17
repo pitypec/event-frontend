@@ -56,10 +56,10 @@ const Header = () => {
         </div>
         <nav className="col-three">
           <ul>
-            <Link to="/">Membership</Link>
-            <Link to="/">Projects</Link>
-            <Link to="/">Services</Link>
-            <Link to="/">Gallery</Link>
+            <Link to="/">Home</Link>
+            <Link to="/services">Services</Link>
+            <Link to="/sector">Sector</Link>
+            <Link to="/projects">Projects</Link>
           </ul>
         </nav>
       </header>
