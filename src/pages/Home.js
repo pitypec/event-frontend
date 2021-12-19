@@ -6,8 +6,6 @@ import { data } from '../utils/imageseed';
 import ImageHolder from '../component/ImageHolder';
 import { flyer } from '../utils/miniflySeed';
 import Minifly from '../component/Minifly';
-import RecentEvent from '../component/RecentEvent';
-import { events } from '../utils/recentEventSeed';
 import Picture from '../images/announcement1.png';
 import RecentPost from '../component/RecentPost';
 import { posts } from '../utils/recentPostSeed';
@@ -50,10 +48,10 @@ const Home = () => {
           <div className="minifly-wrapper">
             <Minifly data={flyer} />
           </div>
-          <h4 className="recent-title">Recent Events</h4>
+          {/* <h4 className="recent-title">Recent Events</h4>
           <div className="recent-event-tile">
             <RecentEvent data={events} />
-          </div>
+          </div> */}
           <h4 className="annoucement-title">Annoucements</h4>
           <div className="annoucement-tile">
             <img src={Picture} alt="annoucement" />

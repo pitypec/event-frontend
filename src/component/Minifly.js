@@ -20,7 +20,7 @@ const Minifly = (props) => {
               <p className="caption">{caption}</p>
               <p className="more-link">
                 <span>More About Us </span>
-                <Link to="/">
+                <Link to="/about">
                   <AiOutlineArrowRight />
                 </Link>
               </p>

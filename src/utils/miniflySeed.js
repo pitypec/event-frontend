@@ -5,7 +5,7 @@ export const flyer = [
   {
     Icon: ImOffice,
     caption:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna tellus sed',
+      'The Oke-Ogun Trade Alliance was founded in 2021 and is an organization that works towards improving the economic, cultural and civic wellbeing of the Oke-Ogun region.',
     figure: 'About',
     narrative: 'Our Organisation',
     link: 'More About Us',

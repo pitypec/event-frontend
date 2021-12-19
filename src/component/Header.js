@@ -58,6 +58,7 @@ const Header = () => {
           <ul>
             <Link to="/">Home</Link>
             <Link to="/services">Services</Link>
+            <Link to="/tourism">Tourism</Link>
             <Link to="/sector">Sector</Link>
             <Link to="/projects">Projects</Link>
           </ul>
