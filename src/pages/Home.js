@@ -1,14 +1,6 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
 import '../sass/home.scss';
-import Cover from '../images/cover.png';
-import { data } from '../utils/imageseed';
-import ImageHolder from '../component/ImageHolder';
-import { flyer } from '../utils/miniflySeed';
-import Minifly from '../component/Minifly';
 import Picture from '../images/announcement1.png';
-import RecentPost from '../component/RecentPost';
-import { posts } from '../utils/recentPostSeed';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Slider from '../component/Slider';
 import { headlines } from '../utils/mainSliideSeed';

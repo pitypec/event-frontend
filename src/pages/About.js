@@ -2,10 +2,7 @@ import React from 'react';
 import '../sass/about.scss';
 import image from '../images/weaver.png';
 import img from '../images/cover.png';
-import RecentPost from '../component/RecentPost';
-import { posts } from '../utils/recentPostSeed';
 import SpeakerImage from '../images/about-one.png';
-import { Link } from 'react-router-dom';
 const About = () => {
   return (
     <div className="about-container">

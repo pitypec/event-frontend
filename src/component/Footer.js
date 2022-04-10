@@ -4,9 +4,7 @@ import {
   AiFillFacebook,
   AiFillTwitterSquare,
   AiOutlineYoutube,
-  AiTwotoneMail,
 } from 'react-icons/ai';
-import { ReactComponent as Logo } from '../svg/25.svg';
 const Footer = () => {
   return (
     <footer>
