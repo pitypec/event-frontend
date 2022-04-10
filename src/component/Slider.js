@@ -6,11 +6,23 @@ import '../sass/slider.scss';
 const Slider = ({ data }) => {
   return (
     <>
-      <Carousel>
+      <Carousel
+        autoPlay
+        interval={'1000'}
+        showThumbs={false}
+        showStatus={false}
+      >
         {data.map((slideimage) => (
-          <div>
-            <img src={slideimage.legend} alt={slideimage.alt} />
-            <p className="legend">{slideimage.legend}</p>
+          <div className="img-holder">
+            <img
+              src={slideimage.original}
+              alt={slideimage.alt}
+              className="img-show"
+            />
+            <div className="inner-tile">
+              <h1>{slideimage.description}</h1>
+              <p>{slideimage.post}</p>
+            </div>
           </div>
         ))}
       </Carousel>

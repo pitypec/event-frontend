@@ -1,0 +1,24 @@
+.img-show {
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.img-holder {
+  height: 773px;
+}
+
+.inner-tile {
+  position: absolute;
+  top: 350px;
+  height: 50px;
+  left: 480px;
+  color: #fff;
+  width: 500px;
+}
+.inner-tile h1 {
+  margin-bottom: 15px;
+}
+.inner-tile p {
+  font-size: 14.5px;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import '../sass/home.scss';
 import Cover from '../images/cover.png';
 import { data } from '../utils/imageseed';
@@ -10,13 +10,58 @@ import Picture from '../images/announcement1.png';
 import RecentPost from '../component/RecentPost';
 import { posts } from '../utils/recentPostSeed';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import Slider from '../component/Slider';
+import { headlines } from '../utils/mainSliideSeed';
 
 const Home = () => {
   return (
     <section>
       <div className="main-block">
         <div className="main-one">
-          <div className="main-slide">
+          <Slider data={headlines} />
+        </div>
+      </div>
+      <div className="section-two-container">
+        <div className="section-two">
+          <h2>About Our Organisation</h2>
+          <p>
+            The Oke-Ogun Trade Alliance was founded in 2021 and is an
+            organization that works towards improving the economic, cultural and
+            civic wellbeing of the Oke-Ogun region.
+          </p>
+          <div className="link-min">
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+      <div className="second-block">
+        <div className="annoucement-tile">
+          <img src={Picture} alt="annoucement" />
+        </div>
+        <div className="title-holder">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna tellus
+            sed tortor libero sed in libero. Malesuada sit congue cras dictumst
+            tristique. Felis pretium orci eu diam. Augue imperdiet volutpat
+            ullamcorper amet mattis tortor. Lectus at in non et, quis in posuere
+            tortor. Lobortis blandit at neque massa aliquam vel a mollis velit.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Home;
+// eslint-disable-next-line no-lone-blocks
+{
+  /* <h4 className="post-block-title">Recent Posts</h4>
+<RecentPost data={posts} /> */
+}
+
+// eslint-disable-next-line no-lone-blocks
+{
+  /* <div className="main-slide">
             <div className="image-wrapper">
               <img src={Cover} alt="event" />
             </div>
@@ -40,30 +85,19 @@ const Home = () => {
           </div>
           <div className="headline-two">
             <ImageHolder data={data} />
-          </div>
-        </div>
-      </div>
-      <div className="second-block">
-        <div className="second-block-wrapper">
-          <div className="minifly-wrapper">
+          </div> */
+}
+
+// eslint-disable-next-line no-lone-blocks
+{
+  /* <div className="minifly-wrapper">
             <Minifly data={flyer} />
-          </div>
-          {/* <h4 className="recent-title">Recent Events</h4>
+          </div> */
+}
+// eslint-disable-next-line no-lone-blocks
+{
+  /* <h4 className="recent-title">Recent Events</h4>
           <div className="recent-event-tile">
             <RecentEvent data={events} />
-          </div> */}
-          <h4 className="annoucement-title">Annoucements</h4>
-          <div className="annoucement-tile">
-            <img src={Picture} alt="annoucement" />
-          </div>
-        </div>
-        <div className="second-block-two">
-          <h4 className="post-block-title">Recent Posts</h4>
-          <RecentPost data={posts} />
-        </div>
-      </div>
-    </section>
-  );
-};
-
-export default Home;
+          </div> */
+}

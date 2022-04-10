@@ -1,0 +1,50 @@
+.service-img-holder {
+  position: relative;
+}
+
+.service-img-holder h1 {
+  position: absolute;
+  top: 15rem;
+  color: white;
+  left: 50%;
+}
+.service-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service-image-holder {
+  width: 631px;
+  // background-image: url('/public/clover-three.png');
+
+}
+.service-image-holder img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.service-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 75rem;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.service-container-two {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: center;
+  width: 70rem;
+  margin-top: 10px;
+}
+.title-holder-service {
+  margin-left: 10px;
+  width: 700px ;
+}
+.title-holder-service p{
+  width: 400px;
+}
+

@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <IconContext.Provider value={{ color: 'green' }}>
       <header>
-        <div className="col-one">
+        {/* <div className="col-one">
           <div className="col-one-meme">
             <h6>Welcome to OOTA</h6>
             <h6>About us/Privacy Policy/Terms of use/Contact us</h6>
@@ -36,7 +36,7 @@ const Header = () => {
               <h6>OOTA@gmail.com</h6>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="col-two">
           <div className="col-two-child">
             <div className="logo">
@@ -48,13 +48,15 @@ const Header = () => {
             <div className="logo-pal">
               <ul>
                 <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/contact">Contact Us</Link>
+                <Link to="/services">Services</Link>
+                <Link to="/tourism">Tourism</Link>
+                <Link to="/association">Association</Link>
+                <Link to="/projects">Projects</Link>
               </ul>
             </div>
           </div>
         </div>
-        <nav className="col-three">
+        {/* <nav className="col-three">
           <ul>
             <Link to="/">Home</Link>
             <Link to="/services">Services</Link>
@@ -62,7 +64,7 @@ const Header = () => {
             <Link to="/sector">Sector</Link>
             <Link to="/projects">Projects</Link>
           </ul>
-        </nav>
+        </nav> */}
       </header>
     </IconContext.Provider>
   );
